@@ -116,13 +116,13 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
 @page {
   size: 210mm 297mm;
   margin-top: 20mm;
-  margin-bottom: 25mm;
+  margin-bottom: 30mm;
 }
 
 @page :first {
   size: 210mm 297mm;
   /* background-image: linear-gradient(#e3e3e3,#e3e3e3 80%, #ffffff 10%); */
-  background-image: url(media/cover.jpg); 
+  background-image: url(../cover/cover.jpg); 
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 210mm 297mm;
@@ -151,21 +151,23 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.4;
     color: #000;
     letter-spacing: 0.1pt;
     /*word-spacing: 1px;*/
     background-image: linear-gradient(#670001,#670001);
     background-repeat: no-repeat;
     background-size: 80px 9px;
-    background-position: 0 45%;
-    padding-bottom: 40px;
-    width: 96%;
+    background-position: 0 50%;
+    padding-top: 20px;
+    vertical-align: top;
+    width: 75%;
     }
     @bottom-center {
         content: " ";
-        width: 2%;
+        width: 10%;
       }
-      @bottom-right { width: 2%; }
+      @bottom-right { width: 15%; }
   }
 
 @page :right {
@@ -176,25 +178,27 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
   }
   @top-center {
     content: " ";
-    width: 2%;
   }
-  @bottom-left { width: 2%; }
+  @bottom-left { width: 15%; }
   @bottom-center {
     content: " ";
+    width: 10%;
   }
   @bottom-right {
     content: string(chapter-title, start) " "" | "" " counter(page);
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.4;
     color: #000;
     letter-spacing: 0.1pt;
     background-image: linear-gradient(#670001,#670001);
     background-repeat: no-repeat;
     background-size: 80px 9px;
-    background-position: 100% 45%;
-    padding-bottom: 40px;
-    width: 96%;
+    background-position: 100% 50%;
+    padding-top: 20px;
+    vertical-align: top;
+    width: 75%;
   }
 }
 
@@ -405,7 +409,7 @@ h2.booksubtitle {
   font-family: "Roboto Slab", sans-serif;
   font-size: 30px;
   font-weight: 300!important;
-  color:#fff;
+  color: #fff;
   margin: 0.1em 0 1em 0;
 
 }
@@ -427,7 +431,7 @@ h4.bookversion {
 h1.part {
   page-break-before: always!important;
   page-break-after: always!important;
-  color: #000;
+  color: #670001;
   margin-top:0;
 }
 h1.part:before {
@@ -1213,7 +1217,7 @@ ol.upper-latin {
     content: ' ';
 }
 
-section[role=doc-endnotes]:first-of-type::before {
+/*section[role=doc-endnotes]:first-of-type::before {
     content: 'Footnotes';
     display: block;
     font-family: "Inter", sans-serif;
@@ -1223,7 +1227,7 @@ section[role=doc-endnotes]:first-of-type::before {
     border-bottom: 1px solid black;
     height: 2em;
     margin-bottom: 1em;
-  }
+  }*/
 /*.epub nav li a:hover {
   border-bottom: 1px solid;
 }*/
