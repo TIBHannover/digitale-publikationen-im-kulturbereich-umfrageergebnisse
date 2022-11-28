@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
     --base-font-size                                  : 16px;
-    --base-font-family                                : "Fira Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
+    --base-font-family                                : "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000; /*#0A75BD*/
-    --link-border-color                               : #670001;
-    --link-color--hover                               : #670001;
-    --link-border-bottom--hover                       : #670001;
+    --link-border-color                               : #8ACDB7;
+    --link-color--hover                               : #8ACDB7;
+    --link-border-bottom--hover                       : #8ACDB7;
     --link-text-decoration                            : underline;
     --link-text-decoration-color                      : #000;
     --sidebar-name-color                              : #000;
@@ -14,14 +13,14 @@
     --sidebar-nav-link-color--active                  : #4D4D4D;
     --cover-heading-font-size-max                     : 40;
     --cover-heading-font-size-min                     : 34;
-    --blockquote-border-color                         : #670001;
-    --heading-font-family                             : "Fira Sans Condensed", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
+    --blockquote-border-color                         : #8ACDB7;
+    --heading-font-family                             : "Playfair Display", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
     --heading-h1-font-size: 3rem;
     --heading-h1-font-weight: 600;
-    --heading-h1-color:  #670001;
+    --heading-h1-color: #111111;
     --heading-h1-margin: 10rem 0 3rem 0;
-    --heading-h2-font-size: 2rem;/*var(--font-size-xl)*/
-    --heading-h2-color:  #670001;
+    --heading-h2-font-size: 2rem; /*var(--font-size-xl)*/
+    --heading-h2-color: #111111;
     --heading-h3-border-style: solid;
     --heading-h3-font-size: 1.6rem; /*var(--font-size-l)*/
     --heading-h3-font-weight: 400;
@@ -33,8 +32,8 @@
     --heading-h6-font-size: 0.9rem; /*var(--font-size-xs)*/
     --sidebar-nav-link-font-weight--active            : bold;
     --sidebar-border-color                            : rgb(174,182,187);
-    --sidebar-nav-link-border-color--active           : #670001;
-    --sidebar-nav-link-border-color--hover            : #670001;
+    --sidebar-nav-link-border-color--active           : #8ACDB7;
+    --sidebar-nav-link-border-color--hover            : #8ACDB7;
     --sidebar-nav-link-color--active : #000;
     --sidebar-nav-link-color--hover : #000;
     --sidebar-nav-link-font-weight--hover             : 500;
@@ -50,7 +49,7 @@
 }
 .content .markdown-section nav::before {
     content: "";
-    /*font-family: "Fira Sans", sans-serif;
+    /*font-family: "Inter", sans-serif;
     font-weight: 600;
     line-height: 1.25em;
     color: #001949;
@@ -66,14 +65,16 @@
 .content strong {
     color: inherit;
 }
+
 /* Frontmatter*/
-.content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/quick-start/05c5b3dd2bdbdfd785bb158752e3bd3c7b415c66/assets/logo-gfm.png");
+.content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/Fidus-Book-Style-Report001/d6232786dc7e4c111f96bdf73d9d9e21916d6d17/images/image.jpg");
 background-position: bottom;
 background-size: 100%;
 background-repeat: no-repeat;*/
   background-image: none;
   height: 100%;
 }
+
 .markdown-section h1.booktitle {
   margin:0;
   border: none;
@@ -84,7 +85,7 @@ background-repeat: no-repeat;*/
   text-transform: none;
   counter-increment: chapter;
   height: 3em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -97,7 +98,7 @@ background-repeat: no-repeat;*/
 .content .markdown-section div.titlepage:after {
   display: block;
   height: 1em;
-  background-image: linear-gradient(#670001,#670001);
+  background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -312,10 +313,10 @@ color: var(--base-color);
 .sidebar nav ul {
   padding-left: 0.8rem;
 }
-.content .markdown-section table {
+/*.content .markdown-section table {
   margin: 0 auto;
   width: 99% !important;
-  font-family: "Fira Sans", helvetica neue, arial, sans-serif;
+  font-family: "Inter", helvetica neue, arial, sans-serif;
   background-size: 8pt;
   page-break-inside: avoid;
   border-collapse: collapse;
@@ -323,9 +324,9 @@ color: var(--base-color);
   border-right: 0;
   text-align: left;
   font-size: 8pt;
-}
+}*/
 
-.content .markdown-section table th {
+/*.content .markdown-section table th {
   border-left: 0;
   border-right: 0;
   padding: 0em 1em;
@@ -333,8 +334,6 @@ color: var(--base-color);
   /*color: black;*/
   font-weight: 700;
   font-style: italic;
-  /*background-color: rgb(241,248,250);
-  border-bottom: 2px solid #0B87DA;*/
 }
 .markdown-section td {
   border-color: var(--link-border-color);
@@ -344,7 +343,7 @@ color: var(--base-color);
 }
 .markdown-section tbody tr:nth-child(even) {
   background-color: #fde5cd;
-}
+}*/
 .content .markdown-section table caption, .content .markdown-section figure figcaption {
     font-size: 0.9rem;
     margin: 0.5em 0 0.75em;
@@ -406,7 +405,7 @@ section.content > aside.nav > .page_toc ul a:hover span {
   color: #EE868F !important;
 }
 /*aside.nav > .page_toc .active {
-  border-left: 5px solid #670001 !important;
+  border-left: 5px solid #111111 !important;
   color: inherit !important;
   padding-left: 10px;
   font-weight: bold;
@@ -478,4 +477,8 @@ nav.app-nav li a, nav.app-nav li a:visited {
   padding-bottom: 56.25%;
   height: 0; overflow: hidden;
   max-width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .markdown-section h1, .content .markdown-section .article-title, .markdown-section h1.part { font-size: 2rem; }
 }
