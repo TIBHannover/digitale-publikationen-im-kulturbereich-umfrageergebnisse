@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-font-family: "Playfair Display";
-font-weight: bold;
-font-style: normal;
-src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(media/PlayfairDisplay-Bold.ttf) format('ttf');
-}
+/*Inter - body*/
 
 @font-face {
 font-family: "Inter";
@@ -91,7 +86,37 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     src: local('Inter ExtraLight Italic'), local('Inter-ExtraLightItalic'), url(media/Inter-ExtraLightItalic.ttf) format('truetype');
 }
 
-/*Condensed*/
+/*Playfair Display - headers*/
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-style: normal;
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(media/PlayfairDisplay-Bold.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-style: normal;
+    src: local('Playfair Display SemiBold'), local('PlayfairDisplay-SemiBold'), url(media/PlayfairDisplay-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-style: normal;
+    src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'), url(media/PlayfairDisplay-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: normal;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(media/PlayfairDisplay-Regular.ttf) format('truetype');
+}
+
+/*Roboto Slab - secondary headers*/
 
 @font-face {
     font-family: "Roboto Slab";
@@ -323,7 +348,7 @@ video {
 }
 nav::before {
   content: "Contents";
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 55px;
   color: #111111;
   font-weight: 600;
@@ -394,7 +419,7 @@ background-repeat: no-repeat;*//*logo cover image*/
 height: 100vh}
 .booktitle {
   /*text-align: center;*/
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 55px;
   color:#111111;
   page-break-inside: avoid;
@@ -405,7 +430,7 @@ height: 100vh}
   letter-spacing: 0pt;
   word-spacing: 1px;
   font-weight: 600;
-  max-width: 75%;
+  max-width: 100%;
   margin: 0;
   text-align: left;
 }
@@ -413,13 +438,13 @@ height: 100vh}
   display: block;
   text-transform: none;
   counter-increment: chapter;
-  height: 10em;
+  height: 7em;
   background-image: linear-gradient(#111111,#111111);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
-  padding-top: 1em;
-  color: #fff;
+  padding-top: 0.5em;
+  color: #0a0a0a;
   content:" ";/*here goes text*/
   font-size: 18px;
 }
@@ -427,23 +452,25 @@ height: 100vh}
 h2.booksubtitle {
   font-family: "Roboto Slab", sans-serif;
   font-size: 30px;
-  font-weight: 300!important;
-  color: #fff;
+  font-weight: 400!important;
+  color: #0a0a0a;
   margin: 0.1em 0 1em 0;
 
 }
 h3.bookauthor {
   font-family: "Roboto Slab", sans-serif;
   font-size: 20px;
-  color:#6B0003;
-  font-weight: 200!important;
+  color: #0a0a0a;
+  padding-top: 0.7em;
+  font-weight: 400!important;
 }
 
 h4.bookversion {
   font-family: "Roboto Slab", sans-serif;
   font-size: 20px;
-  color:#6B0003;
-  font-weight: 200!important;
+  color: #0a0a0a;
+  font-weight: 300!important;
+  padding-top: 0.3em;
   margin: 0.1em 0 1em 0;
 }
 
@@ -469,7 +496,7 @@ h1.part:before {
   page-break-before: always!important;
 }
 .article-title {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Playfair Display", serif;
   string-set: chapter-title content(text);
   font-size: 55px;
   color:#111111;
@@ -534,7 +561,7 @@ h1.part:before {
 
 /*Literaturverzeichnis*/
 h1.article-bibliography-header {
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.395rem;
   text-align: left;
   margin-bottom: 0;
@@ -726,7 +753,7 @@ blockquote strong {
 blockquote  p.att { text-align: right; }
 
 h2, h2 strong {
-font-family: "Inter", sans-serif;
+font-family: "Playfair Display", serif;
 margin-top: 1.5em;
 color:#111111; /*rgb(25,43,83);*/
 }
@@ -734,13 +761,13 @@ h3, h3 strong,
 h4, h4 strong,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-top: 1.5em;
   color: #000; /*rgb(25,43,83);*/
 }
 
 h1 {
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 55px; /* 2.233rem */
   color:#111111; /*rgb(25,43,83);*/
   margin-bottom: 1em;
@@ -759,7 +786,7 @@ h1 strong { font-weight: 400;}
 
 h2 {
   font-size: 1.395rem; /*  */
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   text-transform: none;
   font-weight: 600;
   /*margin: 1.5em 0 1.2em 0;*/
@@ -771,7 +798,7 @@ h2 {
 
 h3 {
   font-size: 1.18rem; /* 1.209rem */
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-top: 17pt;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -781,7 +808,7 @@ h3 {
 
 h4 {
   font-size: 1.01rem; /* 1.023rem */
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-top: 15pt;
   margin-bottom: 9pt;
   font-weight: 600;
@@ -790,7 +817,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 0.97rem; /* 0.930rem*/
   margin-top: 18px;
@@ -800,7 +827,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-size: 0.89rem;
   margin-top: 20pt;
@@ -816,7 +843,6 @@ hr {
     }
 
 hr.br { border:0; height: 0px; }
-
 
 .one ol li {
   list-style-type: decimal;
