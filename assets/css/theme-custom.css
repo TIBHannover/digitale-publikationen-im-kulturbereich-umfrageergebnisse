@@ -7,16 +7,16 @@
     --link-color--hover                               : #8ACDB7;
     --link-border-bottom--hover                       : #8ACDB7;
     --link-text-decoration                            : underline;
-    --link-text-decoration-color                      : #000;
-    --sidebar-name-color                              : #000;
-    --sidebar-background                              : #e3e3e3;
-    --sidebar-nav-link-color--active                  : #4D4D4D;
+    --link-text-decoration-color                      : #302f2f;
+    --sidebar-name-color                              : #ffffff;
+    --sidebar-background                              : #000;
+    --sidebar-nav-link-color--active                  : #ffffff;
     --cover-heading-font-size-max                     : 40;
     --cover-heading-font-size-min                     : 34;
     --blockquote-border-color                         : #8ACDB7;
     --heading-font-family                             : "Playfair Display", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
-    --heading-h1-font-size: 3rem;
-    --heading-h1-font-weight: 600;
+    --heading-h1-font-size: 2.7rem;
+    --heading-h1-font-weight: 700;
     --heading-h1-color: #111111;
     --heading-h1-margin: 10rem 0 3rem 0;
     --heading-h2-font-size: 2rem; /*var(--font-size-xl)*/
@@ -31,14 +31,15 @@
     --heading-h5-font-weight: 500;
     --heading-h6-font-size: 0.9rem; /*var(--font-size-xs)*/
     --sidebar-nav-link-font-weight--active            : bold;
-    --sidebar-border-color                            : rgb(174,182,187);
+    --sidebar-border-color                            : #8ACDB7;
     --sidebar-nav-link-border-color--active           : #8ACDB7;
     --sidebar-nav-link-border-color--hover            : #8ACDB7;
-    --sidebar-nav-link-color--active : #000;
-    --sidebar-nav-link-color--hover : #000;
+    --sidebar-nav-link-color--active : #8ACDB7;
+    --sidebar-nav-link-color--hover : #8ACDB7;
     --sidebar-nav-link-font-weight--hover             : 500;
     --sidebar-nav-link-font-weight--active            : 500;
-    --sidebar-nav-link-font-weight                     :400;
+    --sidebar-nav-link-font-weight                    : 500;
+    --sidebar-nav-link-color                          : #d8d8d8; /*thought I'd try this SW 2022-11-29 for nav*/
     --sidebar-width                                   : 22rem;
     --sidebar-nav-pagelink-background-position        : 3px 10px;
     --sidebar-nav-pagelink-background-position--active: 3px 10px; /*left center*/
@@ -58,12 +59,13 @@
 }
 .sidebar-nav li {
   padding-left: 0.8rem;
+  color: #d8d8d8; /*thought I'd try this SW 2022-11-29 for nav*/
 }
 .sidebar>h1 .app-name-link:hover{
-  color: #000;
+  color: #ffffff;
 }
 .content strong {
-    color: inherit;
+    color: #ffffff;
 }
 
 /* Frontmatter*/
@@ -185,6 +187,7 @@ border: none;
 .sidebar-nav  p {
   font-family: var(--base-font-family);
   line-height: 1.7;
+  color: #d8d8d8;  /*thought I'd try this SW 2022-11-29 for nav*/
 }
 
 .ready hr {
@@ -228,7 +231,7 @@ main > .content {
 }
 /* Links */
 .markdown-section a:visited {
-  color: #989898;
+  color: #8ACDB7;
 }
 .markdown-section a:visited.anchor  {
 color: var(--base-color);
@@ -252,7 +255,7 @@ color: var(--base-color);
 
 /*toc from Fidus*/
 .sidebar-nav #toc ol li {
- list-style-type: none;
+  list-style-type: none;
   margin-left: 0;
   padding-left: 0;
   font-size: 0.8rem;
@@ -269,7 +272,6 @@ color: var(--base-color);
   margin-left: 0em;
 }
 .sidebar-nav #toc ol ol li {
-    list-style-type: "- ";
     margin-left: 0.6em;
     margin-bottom:0;
 }
