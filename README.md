@@ -1,10 +1,10 @@
-## Digital Publications in Culture: Examples and Key Features – Survey Results from the NFDI4Culture Community
+## Digitale Publikationen im Kulturbereich: Beispiele und Eigenschaften – Umfrageergebnisse aus der NFDI4Culture Community
 
-by Matthias Arnold, Alexandra Büttner, Jörg Heseler, and Simon Worthington
+von Matthias Arnold, Alexandra Büttner, Jörg Heseler, und Simon Worthington
 
 v1.0
 
- > German translation: [Digitale Publikationen im Kulturbereich: Beispiele und Eigenschaften – Umfrageergebnisse aus der NFDI4Culture Community](https://tibhannover.github.io/digitale-publikationen-im-kulturbereich-umfrageergebnisse/)
+ > Englische Version: [Digital Publications in Culture: Examples and Key Features – Survey Results from the NFDI4Culture Community](https://tibhannover.github.io/digital-publications-in-culture-survey-results/)
 
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="cover/cover-small.jpg">
@@ -12,17 +12,17 @@ v1.0
  <img alt="publication cover" src="cover/cover-small.jpg">
 </picture>
 
-Task Area 4 of the [NFDI4Culture](https://nfdi4culture.de/) is looking at which initiatives are enhancing their publications for open scholarship. Its aim is to establish a guideline for scholars to create publications and their associated data with a focus on long-term digital preservation.
+Der Aufgabenbereich TA4 „Datenpublikation und Langzeitarchivierung” der [NFDI4Culture](https://nfdi4culture.de/) untersucht, welche Initiativen ihre Publikationen für Open Scholarship verbessern. Ziel ist es, Guidelines für Wissenschaftler:innen zu erstellen, um digitale Publikationen samt Forschungsdaten mit Schwerpunkt digitale Langzeitarchivierung zu veröffentlichen.
 
-In order to get a full understanding of existing enhanced publications in the NFDI4Culture community an online survey was conducted. Its aim was to gather further representative examples. The survey was also used to get a better understanding of what the NFDI4Culture community considers to be an enhanced publication and what features they associate with it.
+Um ein umfassendes Verständnis der bestehenden Enhanced Publications in der NFDI4Culture Community zu erhalten, wurde eine Online-Umfrage durchgeführt. Ihr Ziel war es, weitere repräsentative Beispiele zu sammeln. Die Umfrage diente auch dazu, ein besseres Verständnis dafür zu erlangen, was die NFDI4Culture Community unter einer Enhanced Publication versteht und welche Merkmale sie damit assoziiert.
 
-The survey has shown a variety of examples and contexts which go beyond standard research publications or digital collections. In addition, it has shown that a term is needed, that can capture multimodal, multimedia and multilocal publications.
+Die Umfrage hat gezeigt, dass es eine Vielzahl von Kontexten gibt, die über Standard-Forschungspublikationen oder digitale Sammlungen hinausgehen. Darüber hinaus hat sie gezeigt, dass ein Begriff benötigt wird, der multimodale, multimediale und multilokale Publikationen erfassen kann.
 
-### Cite as
+### Zitiert als
 
-Arnold, Matthias, Alexandra Büttner, Jörg Heseler, and Simon Worthington. 2022. ‘Digital Publications in Culture: Examples and Key Features – Survey Results from the NFDI4Culture Community’. Digital Publications and Data Working Group (NFDI4Culture). Germany. https://doi.org/10.5281/zenodo.7107214.
+Arnold, Matthias, Alexandra Büttner, Jörg Heseler, und Simon Worthington. 2022. „Digitale Publikationen im Kulturbereich: Beispiele und Eigenschaften – Umfrageergebnisse aus der NFDI4Culture Community“. Die Arbeitsgruppe „Digitale Publikationen und Daten“. Deutschland. https://doi.org/10.5281/zenodo.7126012.
 
-© The Authors. 
+© Die Autoren. 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.
 
