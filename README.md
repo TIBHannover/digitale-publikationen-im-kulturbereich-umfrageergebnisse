@@ -20,7 +20,7 @@ Die Umfrage hat gezeigt, dass es eine Vielzahl von Kontexten gibt, die über Sta
 
 ### Zitiert als
 
-Arnold, Matthias, Alexandra Büttner, Jörg Heseler, und Simon Worthington. 2022. „Digitale Publikationen im Kulturbereich: Beispiele und Eigenschaften – Umfrageergebnisse aus der NFDI4Culture Community“. Die Arbeitsgruppe „Digitale Publikationen und Daten“. Deutschland. https://doi.org/10.5281/zenodo.7126012.
+Arnold, Matthias, Alexandra Büttner, Jörg Heseler, und Simon Worthington. 2023. „Digitale Publikationen im Kulturbereich: Beispiele und Eigenschaften – Umfrageergebnisse aus der NFDI4Culture Community“. Die Arbeitsgruppe „Digitale Publikationen und Daten“. Deutschland. https://doi.org/10.5281/zenodo.7126012.
 
 © Die Autoren. 
 
