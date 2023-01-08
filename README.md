@@ -1,6 +1,6 @@
 ## Digitale Publikationen im Kulturbereich: Beispiele und Eigenschaften – Umfrageergebnisse aus der NFDI4Culture Community
 
-von Matthias Arnold, Alexandra Büttner, Jörg Heseler, und Simon Worthington
+von Matthias Arnold <a href="https://orcid.org/0000-0003-0876-6177"><img alt="ORCID logo" src="uhtml/images/ORCIDiD_icon128x128.png" width="16" height="16" /></a>, Alexandra Büttner <a href="https://orcid.org/0000-0002-4950-0941"><img alt="ORCID logo" src="uhtml/images/ORCIDiD_icon128x128.png" width="16" height="16" /></a>, Jörg Heseler <a href="https://orcid.org/0000-0002-1497-627X"><img alt="ORCID logo" src="uhtml/images/ORCIDiD_icon128x128.png" width="16" height="16" /></a>, und Simon Worthington <a href="https://orcid.org/0000-0002-8579-9717"><img alt="ORCID logo" src="uhtml/images/ORCIDiD_icon128x128.png" width="16" height="16" /></a>
 
 v1.0
 
