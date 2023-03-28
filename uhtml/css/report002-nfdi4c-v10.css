@@ -153,7 +153,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     src: local('Roboto Slab ExtraLight'), local('RobotoSlab-ExtraLight'), url(media/RobotoSlab-ExtraLight.ttf) format('truetype');
 }
 
-*{
+body {
   font-family: "Inter", sans-serif;
 }
 
